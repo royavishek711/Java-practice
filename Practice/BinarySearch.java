@@ -14,7 +14,7 @@ public class BinarySearch {
         Arrays.sort(arr);
         System.out.println("enter element to search: ");
         int n=sc.nextInt();
-        System.out.println(bin(arr,n)==-1?"Element not exists":bin(arr,n));
+        System.out.println(bin(arr,n)==-1?"Element not exists":"Element exists at index "+bin(arr,n));
     }
 
     public static int bin(int [] arr,int n){
